@@ -7,9 +7,9 @@ app = Flask(__name__)
 def resume():
 	return render_template('index.html')
 
-@app.route("/informations")
+@app.route("/backgrounds")
 def info():
-	return render_template('information.html')
+	return render_template('background.html')
 
 @app.route("/projects", methods= ['GET', 'POST'])
 def projects():
