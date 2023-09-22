@@ -7,7 +7,7 @@ app = Flask(__name__)
 def resume():
 	return render_template('index.html')
 
-@app.route("/informations", methods= ['GET', 'POST'])
+@app.route("/informations")
 def info():
 	return render_template('information.html')
 
