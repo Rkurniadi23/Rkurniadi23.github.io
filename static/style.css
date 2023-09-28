@@ -2,6 +2,24 @@ body {
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
 }
+.resume-img {
+    align-items: center;
+    justify-content: center;
+}
+.con {
+    background-color: rgb(212, 232, 222);
+
+}
+.top-nav {
+    background-color: rgb(177, 224, 201);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(106, 78, 51);
+    padding: 20px 40px;
+    box-shadow: 2px 2px 10px;
+}
+
 h1{
     font-weight: 900;
     font-size: 70px;
@@ -23,7 +41,7 @@ a{
     text-decoration: none;
 }
 hr{
-    color:rgb(255,0,97);
+    color: rgb(106, 78, 51);
     border-color:rgb(255,0,97);
 }
 .left,.right {
@@ -98,7 +116,7 @@ hr{
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: rgb(255,0,97);
+    color: rgb(106, 78, 51);
 }
 
 .overlay .closebtn {
@@ -144,7 +162,7 @@ hr{
 
 /** Community**/
 .row a{
-    color:rgb(255,0,97) ;
+    color: rgb(106, 78, 51);
 }
 .row{
     display: grid;
@@ -164,7 +182,7 @@ hr{
 
 }
 .blog-row a{
-    color:rgb(255,0,97) ;
+    color: rgb(106, 78, 51);
 }
 .blog-row .col{
     background: #ffffff;
@@ -173,7 +191,7 @@ hr{
 }
 .blog-row .col:hover{
     color: #ffffff;
-    background-color:rgb(255,0,97) 
+    color: rgb(106, 78, 51);
     
 }
 .blog-row .col:hover a{
@@ -188,7 +206,6 @@ hr{
     width: auto;
     margin: 10px;
     color: black;
-    background-color: white;
     padding: 45px 45px;
 }
 .accordion .pcontainer {
@@ -229,7 +246,6 @@ cursor: pointer;
 
 .accordion .content {
 position: relative;
-background: white;
 height: 10%;
 font-size: 20px;
 text-align: justify;
@@ -243,7 +259,7 @@ transition: 0.5s;
 .accordion hr {
 width: 100%;
 margin-left: 0;
-color:rgb(255,0,97);
+color: rgb(106, 78, 51);
 }
 .accordion .pcontainer.active .content {
     height: 100%;
@@ -257,7 +273,7 @@ color:rgb(255,0,97);
     content: "-";
 }
 .content a{
-    color: rgb(255,0,97);
+    color: rgb(106, 78, 51);
 }
 /*Awards*/
 
